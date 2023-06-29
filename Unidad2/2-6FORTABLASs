@@ -1,0 +1,16 @@
+WHILpackage com.mycompany.mavenproject18;
+
+public class Mavenproject18 {
+
+    public static void main(String[] args) {
+        int i,j;
+        for(i=1; i<=10; i++){
+            System.out.println("tabla del " + i);
+            System.out.println("--------------");
+            
+            for(j=1; j<=10; j++){
+                System.out.println(i + "X" + j + "=" + j*i);
+            } 
+        }
+    }
+    }
